@@ -1,0 +1,5 @@
+/**** PAQUETE CONTACTO *********************************************************/
+form.fluzo-contacto input[type='text'], form.fluzo-contacto input[type='email'] {    
+    width: 40%;
+}
+

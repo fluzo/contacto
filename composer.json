@@ -1,0 +1,27 @@
+{
+    "name": "fluzo/contacto",
+    "description": "Formulario de contacto para Laravel 4.",
+    "keywords": ["laravel", "contacto"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Javi",
+            "email": "fluzo.info@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers",
+            "src/models"            
+        ],
+        "psr-0": {
+            "Fluzo\\Contacto\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
